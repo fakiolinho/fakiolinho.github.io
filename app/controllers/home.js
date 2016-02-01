@@ -30,6 +30,14 @@
                 title: 'Bored with Cheat Sheets? This one will make your day',
                 date: '28 December 2015',
                 url: 'http://angularjs-recipes.com/#!/posts/Ge1672/bored-with-cheat-sheets-this-one-will-make-your-day'
+            }, {
+                title: 'A developer’s guide to writing newsletter and email templates',
+                date: '20 October 2015',
+                url: 'http://blog.mist.io/post/131085224931/a-developers-guide-to-writing-newsletter-and'
+            }, {
+                title: 'JavaScript MVC showdown: AngularJS vs EmberJS',
+                date: '31 July 2015',
+                url: 'http://blog.mist.io/post/125506672521/javascript-mvc-showdown-angularjs-vs-emberjs'
             }
         ];
 	}
