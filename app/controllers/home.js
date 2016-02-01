@@ -11,6 +11,10 @@
         var self = this;
         self.posts = [
             {
+                title: 'Get rid of your controllers, start routing using components in AngularJS 1.5.x',
+                date: '1 February 2016',
+                url: 'http://angularjs-recipes.com/#!/posts/df6712/get-rid-of-your-controllers-start-routing-using-components-in-angularjs-15x'
+            }, {
                 title: 'I have a new project, should i use AngularJS 1.x or Angular 2?',
                 date: '18 January 2016',
                 url: 'http://angularjs-recipes.com/#!/posts/23swq1/i-have-a-new-project-should-i-use-angularjs-1x-or-angular-2'
