@@ -1,0 +1,57 @@
+<article class="howdy">
+    <div class="row">
+        <div class="col s12">
+            <div class="card">
+                <div class="card-content center">
+                    <img src="app/assets/images/avatar.jpg" class="avatar" alt="Marios Fakiolas" />
+
+                    <h4>Marios Fakiolas</h4>
+                    <h6><em>Frontend Developer at mist.io, creator of angularjs-recipes.com</em></h6>
+                    <h6><em>...above all a happy husband and father!!!</em></h6>
+                </div>
+            </div>
+        </div>
+    </div>
+</article>
+
+<!-- <article>
+    <div class="row">
+        <div class="col s12">
+            <div class="card">
+                <div class="card-content">
+                    <span class="card-title">Some words about me</span>
+                    <p>
+                        I am a truly passionate guy, always ready to make smart ideas come true. Frontend Developer at mist.io, creator of angularjs-recipes.com, coordinator of Athens AngularJS Meetup and huge fan of AngularJS framework.
+                    </p>
+                    <p>
+                        Apart from AngularJS i have been developing applications using EmberJS and PolymerJS so i think i have at least a tiny experience in latest js frameworks technologies. Also i am very strong nodeJS and php developer using Laravel framework which is a powerhouse.
+                    </p>
+                    <p>
+                        Furthermore i am a happy husband, father and a guy who enjoys his job because web development is my hobby too.
+                    </p>
+                    <p>
+                        So happy coding!!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</article> -->
+
+<article ng-repeat="post in homeCtl.posts">
+    <div class="row">
+        <div class="col s12">
+            <div class="card">
+                <div class="card-content">
+                    <span class="card-title text-center">{{post.title}}</span>
+                    <p>
+                        {{post.date}}
+                    </p>
+                </div>
+                <div class="card-action">
+                    <a href="{{post.url}}" target="_blank">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</article>
