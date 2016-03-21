@@ -18,6 +18,18 @@
             date: '14 March 2016',
             url: 'http://angularjs-recipes.com/posts/df901m/optimize-your-angularjs-application-from-day-one-part-1'
         }, {
+            title: 'Get rid of controllers in angular 1.5.x start using component directives',
+            date: '27 February 2016',
+            url: 'http://www.slideshare.net/mariosfakiolas/get-rid-of-controllers-in-angular-15x-start-using-component-directives'
+        }, {
+            title: 'Web components are the future of the web - Take advantage of new web technologies using PolymerJS',
+            date: '27 February 2016',
+            url: 'http://www.slideshare.net/mariosfakiolas/web-components-are-the-future-of-the-web-take-advantage-of-new-web-technologies-using-polymerjs'
+        }, {
+            title: 'Angular 2 - How we got here?',
+            date: '15 February 2016',
+            url: 'http://www.slideshare.net/mariosfakiolas/angular-2-how-we-got-here'
+        }, {
             title: 'Get rid of your controllers, start routing using components in AngularJS 1.5.x',
             date: '1 February 2016',
             url: 'http://angularjs-recipes.com/posts/df6712/get-rid-of-your-controllers-start-routing-using-components-in-angularjs-15x'
